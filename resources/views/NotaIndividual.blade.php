@@ -25,10 +25,6 @@
             <th scope="row">Fecha</th>
             <td>{{ $nota->fecha }}</td>
         </tr>
-        <tr>
-            <th scope="row">Fecha y hora </th>
-            <td>{{ $nota->fecha }}</td>
-        </tr>
     
         <tr>
             <th scope="row">Id del contacto</th>

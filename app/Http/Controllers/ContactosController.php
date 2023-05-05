@@ -22,7 +22,7 @@ class ContactosController extends Controller
 
     public function show($id){
         $contacto = Contacto::findOrFail($id);
-        return view('contactoIndividual', compact('contactos','texto'))->with('contacto',$contacto, 'texto', $texto);
+        return view('contactoIndividual')->with('contacto', $contacto);
     }
 
     public function create(){
